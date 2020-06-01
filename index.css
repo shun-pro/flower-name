@@ -1,0 +1,566 @@
+@charset "utf-8"
+html{
+  font-size: 62.5%;/* 16px × 62.5% = 10px*/
+  
+}
+body {
+  /* font-size: 1.6rem; */
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.05rem;
+  color: #3f434a;
+}
+
+html,body {
+  /* height: 100vh; */
+}
+.img{
+  /* max-width: 100%; */
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+ 
+}
+
+section.header {
+  background-image: url(images/bg_header_pink.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 660px;
+  text-align: center;
+  position: relative;
+  padding-top: 48px;
+  width: 100%;
+}
+
+section.header .logo {
+  margin: 0 auto 16px;
+  height: 116px;
+  width: 131px;
+  background-image: url(images/header-logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fadeIn 2s ease 0.2s 1 normal;
+  margin-top: 180px;
+}
+
+section.header .tagline {
+  color: #fff;
+  margin: 16px 6vmin 24px;
+  animation: fadeIn 2s ease 0.2s 1 normal;
+  font-size: 20px;
+}
+
+section.header .content {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  right: 0;
+  animation: fadeIn 2s ease 0.2s 1 normal;
+}
+
+.download_pc {
+  padding: 24px 16px;
+  height: 97px;
+  width: 100%;
+}
+
+.download_pc .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  color: hsl(210, 53%, 51%);
+  text-decoration: none;
+}
+
+.badge_appstore {
+  width: 164px;
+  height: 49px;
+  margin: 0 auto;
+  background-image: url(images/appstore.png);
+  background-size: cover;
+  margin-right: 16px;
+}
+
+.badge_googleplaystore {
+  width: 164px;
+  height: 49px;
+  margin: 0 auto;
+  background-image: url(images/google.png);
+  background-size: cover;
+}
+
+.content .footnote {
+  margin: 24px auto;
+  color: white;
+  font-size: 13px;
+}
+
+section {
+  display: block;
+}
+
+section.service .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.white {
+  color: #fff;
+}
+
+section.service .container .item {
+  width: 100%;
+  padding: 8vmin 6vmin;
+  min-height: 540px;
+}
+.item1 {
+  background: #cdbeca;
+  background-image: url(images/bg1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+.item2 {
+  background: #cdbeca;
+  background-image: url(images/bg2.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+.item3 {
+  background: #cdbeca;
+  background-image: url(images/bg3.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+section.price {
+text-align: center;
+}
+
+section.price .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.price .container .item {
+  flex-grow: 1;
+  flex-basis: 375px;
+  padding-top: 65px;
+}
+section.price .container .price .wrap {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+section.price .container .price h2 {
+  font-size: 20px;
+}
+
+section.price .container .price .content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+section.price .container .price .content .bouquet {
+  flex-basis: 200px;
+  background-image: url(images/flower.png);
+  background-size: 200px 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 24px 0 8px;
+}
+
+.section.price .container .price .content .bouquet .freetrial {
+  height: 46px;
+  width: 125px;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url(images/freetrial.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.bouquet_price {
+  margin: 16px auto;
+  flex: none;
+  font-weight: bold;
+  line-height: 5px;
+}
+.bouquet_price p{
+  font-size: 15px;
+}
+.bouquet_price p.large {
+  font-size: 20px;
+}
+.frequency {
+  margin-top: 140px;
+}
+.frequency h2 {
+  font-size: 20px;
+}
+.footnote p{
+  line-height: 10px;
+}
+.footnote p {
+  font-size: 13px;
+}
+.frequency .img {
+  height: 160px;
+  width: 180px;
+  margin: auto;
+  background-image: url(images/frequency.png);
+  background-size: cover;
+}
+section.flower {
+  background-color: #ead5dc;
+  width: 100%;
+}
+section.flower .container {
+  height: 730px;
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+section.flower .container .item {
+  flex-grow: 1;
+}
+
+section.flower .container .title {
+  max-height: fit-content;
+  margin-bottom: 24px;
+  order: 2;
+  width: 50%;
+  margin-top: 150px;
+}
+section.flower h2 {
+  text-align: center;
+}
+
+
+section.flower .container .img {
+  background-image: url(images/flower2.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* width: 78900px; */
+  width: 50%;
+  order: 1;
+}
+
+section.flower .container .body {
+  /* max-width: 400px; */
+  /* margin: 150px auto; */
+  order: 3;
+  margin: 0 auto;
+  max-width: 400px;
+}
+section.flower h3 {
+  margin-top: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+section.flower p {
+  text-align: justify;
+}
+
+.flower .container .item .body {
+  max-width: 400px;
+}
+
+.vase .title h2{
+  text-align: center;
+}
+
+
+
+.vase .container {
+  display: flex;
+  background: #e7e3df;
+  padding: 100px 0 100px 0;
+}
+
+.left_message {
+  max-width: 400px;
+  margin: auto;
+}
+
+.discount {
+  text-align: center;
+}
+.discount p{
+  background-color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px 8px;
+}
+.vase_variation  {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px auto;
+}
+
+.vase_variation .item {
+  flex-grow: 1;
+  height: 116px;
+  max-width: 98px;
+  position: relative;  
+  background-size: cover;
+}
+
+.bell {
+  background-image: url(images/bell.jpg);
+}
+
+.moon {
+  background-image: url(images/moon.jpg);
+}
+
+.candle {
+  background-image: url(images/candle.jpg);
+}
+
+.vase_variation .item p {
+  position: absolute;
+  font-size: 0.8rem;
+  text-align: center;
+  bottom: 4px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.price .title {
+  border: 2px solid;
+  font-weight: bold;
+  padding: 4px;
+  text-align: center;
+  margin-right: 16px;
+  display: inline-block;
+  width: 22%;
+  font-size: 0.9rem;
+}
+
+
+.left_message .price {
+  display: flex;
+  margin-bottom: 10px;
+}
+.nomal_price {
+  font-size: 0.7rem;
+}
+
+.footnote {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.item_img {
+  background-image: url(images/flower3.jpg);
+  width: 50%;
+  background-size: cover;
+  height: 730px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  
+}
+
+.service2 {
+  text-align: center;
+  padding: 90px 0 110px 0;
+}
+
+.service_contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service_content {
+  padding-top: 80px;
+  background-position: top;
+
+}
+
+.content1 {
+  background-image: url(images/icon1.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+.content2 {
+  background-image: url(images/icon2.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+.content3 {
+  background-image: url(images/icon3.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+}
+
+.download2 .container {
+  display: flex;
+  background: #efdfc5;
+  height: 412px;
+}
+.download2 .logo {
+  background-image: url(images/blackf.png);
+  background-repeat: no-repeat;
+  background-size: 118px;
+  background-position: top;
+  z-index: 100;
+  padding-top: 80px;
+  margin-top: 50px;
+  margin-left: 1000px;
+  font-size: 0.7rem;
+  color: #3f434a;
+}
+
+.download2 .img {
+  background-image: url(images/donload2.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 80%;
+  height: 411px;
+  background-size: contain;
+  position: absolute;
+}
+
+.mini-message {
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: #3f434a;
+}
+
+.footer .content7 {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  padding-top: 60px;
+  font-size: 0.9rem;
+}
+
+.content7 {
+  margin-top: 0px;
+}
+
+.copyright {
+  color: #fff;
+  opacity: 0.4;
+  display: block;
+  text-align: center;
+  padding-bottom: 140px;
+}
+
+.download_sp {
+  padding: 24px 14px;
+  background: rgba(255,255,255,0.8);
+  height: 97px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  box-shadow: 0 -2px 12px 0 rgba(0,0,0,0.08);
+  backdrop-filter: blur(8px);
+  display: none;
+}
+
+.download_sp .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+@media screen and (max-width:680px){
+
+  html {
+    width: 620px;
+  }
+  section.header {
+    height: 1100px;
+  }
+
+  section.header .logo {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  section.header .tagline {
+    font-size: 2rem;
+  }
+  .download_pc  {
+    margin: auto;
+    padding: 0;
+    display: block;
+  }
+
+  .download_pc .container {
+    display: none;
+  }
+  section.service .container {
+    display: block;
+    /* width: 100%; */
+  }
+
+  section.price .container {
+    display: block;
+  }
+
+  section.flower .container .img {
+    width: 100%;
+    height: 400px;
+  }
+
+  section.flower .container {
+    height: 100%;
+    display: block;
+    /* margin: 0; */
+  }
+  .mini-message {
+    /* margin: none; */
+  }
+
+  .download2 .logo {
+    margin-left: 0;
+  }
+  
+
+  .download_sp {
+    display: block;
+  }
+
+  .frequency .img {
+    margin-bottom: 100px;
+    height: 240px;
+    width: 270px;
+  }
+
+  .frequency h2 {
+    font-size: 2rem;
+  }
+
+
+}
